@@ -3,8 +3,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential  
 
   
-language_key = "067be37a98ed4a6a88991c2d7aabb876"  
-language_endpoint = "https://ai-3003-kbs-la.cognitiveservices.azure.com/"  
+language_key = "your_language_service_key"  
+language_endpoint = "your_language_service_endpoint"  
   
 # Function to authenticate the Azure Text Analytics client  
 def authenticate_client():  
